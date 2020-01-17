@@ -42,5 +42,5 @@ class Vcpu
 
         uint16_t memory_[MEM_SIZE + REG_AMOUNT];
 
-        Keyboard keyboard = Keyboard("../img/font.bmp");
+        Keyboard keyboard = Keyboard("./img/font.bmp");
 };
